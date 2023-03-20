@@ -40,7 +40,7 @@ def main():
 
     print(len(swaps))
     for i, j in swaps:
-        print(i, j,end='\r\n')
+        print(i, j,end=' ')
 
 
 if __name__ == "__main__":
