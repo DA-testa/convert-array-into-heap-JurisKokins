@@ -38,7 +38,7 @@ def main():
             file.readline()
             swaps = build_heap(list(map(int,file.readline().split())))
 
-    print(len(swaps))
+    print(len(swaps),end='\r\n')
     for i, j in swaps:
         print(i, j,end=' ')
 
